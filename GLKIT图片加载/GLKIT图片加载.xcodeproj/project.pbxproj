@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42EC141622AA1A15002AEADC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC141522AA1A15002AEADC /* AppDelegate.m */; };
+		42EC141922AA1A15002AEADC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC141822AA1A15002AEADC /* ViewController.m */; };
+		42EC141C22AA1A15002AEADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EC141A22AA1A15002AEADC /* Main.storyboard */; };
+		42EC141E22AA1A15002AEADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EC141D22AA1A15002AEADC /* Assets.xcassets */; };
+		42EC142122AA1A15002AEADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EC141F22AA1A15002AEADC /* LaunchScreen.storyboard */; };
+		42EC142422AA1A15002AEADC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC142322AA1A15002AEADC /* main.m */; };
+		42EC142E22AA1A15002AEADC /* GLKIT____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC142D22AA1A15002AEADC /* GLKIT____Tests.m */; };
+		42EC143922AA1A15002AEADC /* GLKIT____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC143822AA1A15002AEADC /* GLKIT____UITests.m */; };
+		42EC144B22AA1F9A002AEADC /* kunkun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42EC144A22AA1F9A002AEADC /* kunkun.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42EC142A22AA1A15002AEADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EC140922AA1A15002AEADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EC141022AA1A15002AEADC;
+			remoteInfo = "GLKIT图片加载";
+		};
+		42EC143522AA1A15002AEADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EC140922AA1A15002AEADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EC141022AA1A15002AEADC;
+			remoteInfo = "GLKIT图片加载";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42EC141122AA1A15002AEADC /* GLKIT图片加载.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLKIT图片加载.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EC141422AA1A15002AEADC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42EC141522AA1A15002AEADC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42EC141722AA1A15002AEADC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42EC141822AA1A15002AEADC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42EC141B22AA1A15002AEADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42EC141D22AA1A15002AEADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42EC142022AA1A15002AEADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42EC142222AA1A15002AEADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EC142322AA1A15002AEADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42EC142922AA1A15002AEADC /* GLKIT图片加载Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GLKIT图片加载Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EC142D22AA1A15002AEADC /* GLKIT____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GLKIT____Tests.m"; sourceTree = "<group>"; };
+		42EC142F22AA1A15002AEADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EC143422AA1A15002AEADC /* GLKIT图片加载UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GLKIT图片加载UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EC143822AA1A15002AEADC /* GLKIT____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GLKIT____UITests.m"; sourceTree = "<group>"; };
+		42EC143A22AA1A15002AEADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EC144A22AA1F9A002AEADC /* kunkun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kunkun.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42EC140E22AA1A15002AEADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EC142622AA1A15002AEADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EC143122AA1A15002AEADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42EC140822AA1A15002AEADC = {
+			isa = PBXGroup;
+			children = (
+				42EC141322AA1A15002AEADC /* GLKIT图片加载 */,
+				42EC142C22AA1A15002AEADC /* GLKIT图片加载Tests */,
+				42EC143722AA1A15002AEADC /* GLKIT图片加载UITests */,
+				42EC141222AA1A15002AEADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42EC141222AA1A15002AEADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42EC141122AA1A15002AEADC /* GLKIT图片加载.app */,
+				42EC142922AA1A15002AEADC /* GLKIT图片加载Tests.xctest */,
+				42EC143422AA1A15002AEADC /* GLKIT图片加载UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42EC141322AA1A15002AEADC /* GLKIT图片加载 */ = {
+			isa = PBXGroup;
+			children = (
+				42EC141422AA1A15002AEADC /* AppDelegate.h */,
+				42EC141522AA1A15002AEADC /* AppDelegate.m */,
+				42EC141722AA1A15002AEADC /* ViewController.h */,
+				42EC141822AA1A15002AEADC /* ViewController.m */,
+				42EC144A22AA1F9A002AEADC /* kunkun.jpg */,
+				42EC141A22AA1A15002AEADC /* Main.storyboard */,
+				42EC141D22AA1A15002AEADC /* Assets.xcassets */,
+				42EC141F22AA1A15002AEADC /* LaunchScreen.storyboard */,
+				42EC142222AA1A15002AEADC /* Info.plist */,
+				42EC142322AA1A15002AEADC /* main.m */,
+			);
+			path = "GLKIT图片加载";
+			sourceTree = "<group>";
+		};
+		42EC142C22AA1A15002AEADC /* GLKIT图片加载Tests */ = {
+			isa = PBXGroup;
+			children = (
+				42EC142D22AA1A15002AEADC /* GLKIT____Tests.m */,
+				42EC142F22AA1A15002AEADC /* Info.plist */,
+			);
+			path = "GLKIT图片加载Tests";
+			sourceTree = "<group>";
+		};
+		42EC143722AA1A15002AEADC /* GLKIT图片加载UITests */ = {
+			isa = PBXGroup;
+			children = (
+				42EC143822AA1A15002AEADC /* GLKIT____UITests.m */,
+				42EC143A22AA1A15002AEADC /* Info.plist */,
+			);
+			path = "GLKIT图片加载UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42EC141022AA1A15002AEADC /* GLKIT图片加载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EC143D22AA1A15002AEADC /* Build configuration list for PBXNativeTarget "GLKIT图片加载" */;
+			buildPhases = (
+				42EC140D22AA1A15002AEADC /* Sources */,
+				42EC140E22AA1A15002AEADC /* Frameworks */,
+				42EC140F22AA1A15002AEADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLKIT图片加载";
+			productName = "GLKIT图片加载";
+			productReference = 42EC141122AA1A15002AEADC /* GLKIT图片加载.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42EC142822AA1A15002AEADC /* GLKIT图片加载Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EC144022AA1A15002AEADC /* Build configuration list for PBXNativeTarget "GLKIT图片加载Tests" */;
+			buildPhases = (
+				42EC142522AA1A15002AEADC /* Sources */,
+				42EC142622AA1A15002AEADC /* Frameworks */,
+				42EC142722AA1A15002AEADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EC142B22AA1A15002AEADC /* PBXTargetDependency */,
+			);
+			name = "GLKIT图片加载Tests";
+			productName = "GLKIT图片加载Tests";
+			productReference = 42EC142922AA1A15002AEADC /* GLKIT图片加载Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42EC143322AA1A15002AEADC /* GLKIT图片加载UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EC144322AA1A15002AEADC /* Build configuration list for PBXNativeTarget "GLKIT图片加载UITests" */;
+			buildPhases = (
+				42EC143022AA1A15002AEADC /* Sources */,
+				42EC143122AA1A15002AEADC /* Frameworks */,
+				42EC143222AA1A15002AEADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EC143622AA1A15002AEADC /* PBXTargetDependency */,
+			);
+			name = "GLKIT图片加载UITests";
+			productName = "GLKIT图片加载UITests";
+			productReference = 42EC143422AA1A15002AEADC /* GLKIT图片加载UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42EC140922AA1A15002AEADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = hiphone;
+				TargetAttributes = {
+					42EC141022AA1A15002AEADC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					42EC142822AA1A15002AEADC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42EC141022AA1A15002AEADC;
+					};
+					42EC143322AA1A15002AEADC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42EC141022AA1A15002AEADC;
+					};
+				};
+			};
+			buildConfigurationList = 42EC140C22AA1A15002AEADC /* Build configuration list for PBXProject "GLKIT图片加载" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42EC140822AA1A15002AEADC;
+			productRefGroup = 42EC141222AA1A15002AEADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42EC141022AA1A15002AEADC /* GLKIT图片加载 */,
+				42EC142822AA1A15002AEADC /* GLKIT图片加载Tests */,
+				42EC143322AA1A15002AEADC /* GLKIT图片加载UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42EC140F22AA1A15002AEADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EC142122AA1A15002AEADC /* LaunchScreen.storyboard in Resources */,
+				42EC144B22AA1F9A002AEADC /* kunkun.jpg in Resources */,
+				42EC141E22AA1A15002AEADC /* Assets.xcassets in Resources */,
+				42EC141C22AA1A15002AEADC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EC142722AA1A15002AEADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EC143222AA1A15002AEADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42EC140D22AA1A15002AEADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EC141922AA1A15002AEADC /* ViewController.m in Sources */,
+				42EC142422AA1A15002AEADC /* main.m in Sources */,
+				42EC141622AA1A15002AEADC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EC142522AA1A15002AEADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EC142E22AA1A15002AEADC /* GLKIT____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EC143022AA1A15002AEADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EC143922AA1A15002AEADC /* GLKIT____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42EC142B22AA1A15002AEADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EC141022AA1A15002AEADC /* GLKIT图片加载 */;
+			targetProxy = 42EC142A22AA1A15002AEADC /* PBXContainerItemProxy */;
+		};
+		42EC143622AA1A15002AEADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EC141022AA1A15002AEADC /* GLKIT图片加载 */;
+			targetProxy = 42EC143522AA1A15002AEADC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42EC141A22AA1A15002AEADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EC141B22AA1A15002AEADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42EC141F22AA1A15002AEADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EC142022AA1A15002AEADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42EC143B22AA1A15002AEADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42EC143C22AA1A15002AEADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42EC143E22AA1A15002AEADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GLKIT图片加载/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiphone.GLKIT----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42EC143F22AA1A15002AEADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GLKIT图片加载/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiphone.GLKIT----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42EC144122AA1A15002AEADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GLKIT图片加载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiphone.GLKIT----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLKIT图片加载.app/GLKIT图片加载";
+			};
+			name = Debug;
+		};
+		42EC144222AA1A15002AEADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GLKIT图片加载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiphone.GLKIT----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLKIT图片加载.app/GLKIT图片加载";
+			};
+			name = Release;
+		};
+		42EC144422AA1A15002AEADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GLKIT图片加载UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiphone.GLKIT----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GLKIT图片加载";
+			};
+			name = Debug;
+		};
+		42EC144522AA1A15002AEADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GLKIT图片加载UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiphone.GLKIT----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GLKIT图片加载";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42EC140C22AA1A15002AEADC /* Build configuration list for PBXProject "GLKIT图片加载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EC143B22AA1A15002AEADC /* Debug */,
+				42EC143C22AA1A15002AEADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EC143D22AA1A15002AEADC /* Build configuration list for PBXNativeTarget "GLKIT图片加载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EC143E22AA1A15002AEADC /* Debug */,
+				42EC143F22AA1A15002AEADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EC144022AA1A15002AEADC /* Build configuration list for PBXNativeTarget "GLKIT图片加载Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EC144122AA1A15002AEADC /* Debug */,
+				42EC144222AA1A15002AEADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EC144322AA1A15002AEADC /* Build configuration list for PBXNativeTarget "GLKIT图片加载UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EC144422AA1A15002AEADC /* Debug */,
+				42EC144522AA1A15002AEADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42EC140922AA1A15002AEADC /* Project object */;
+}

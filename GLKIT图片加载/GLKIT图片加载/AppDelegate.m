@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  GLSL_加载图片
+//  GLKIT图片加载
 //
-//  Created by hiphone on 2019/6/8.
+//  Created by hiphone on 2019/6/7.
 //  Copyright © 2019年 hiphone. All rights reserved.
 //
 
